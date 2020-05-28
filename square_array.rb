@@ -4,7 +4,6 @@ def square_array(array)
     new_arr_val = arr_value * arr_value
     squared_array << new_arr_val
   end
-  puts squared_array
+  squared_array
 end
 
-square_array([1,2,3])
